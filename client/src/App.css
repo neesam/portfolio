@@ -1,0 +1,98 @@
+.soscard-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  gap: 40px;
+  margin-right: 15px;
+  margin-top: 10%;
+  font-size: 30px;
+  font-family: 'Patua One';
+  
+}
+
+.sosalbums-card {
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+  transform-origin:center;
+  transform:perspective(800px) rotateY(17deg);
+  transition:0.5s;
+  -webkit-box-reflect:below linear-gradient(transparent, transparent, #0004);
+  color: white;
+  font-family: 'Noto Sans';
+  font-family: 'Patua One';
+  text-decoration: none;
+}
+
+.sosother-albums-container {
+  max-width:600px;
+  max-height:350px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:20px;
+  flex-direction: column;
+  margin-bottom: 20%;
+  text-decoration: none;
+}
+
+.product-details {
+	position: relative;
+	text-align: left;
+	padding: 30px;
+	height: fit-content;
+	float: left;
+	width: 55%;
+    word-wrap: break-word;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#container .product-details h1{
+	display: inline-block;
+	position: relative;
+	font-size: 30px;
+	color: #344055;
+	margin-bottom: 2px;
+	
+}
+
+#container .product-details h1:before{
+	position: absolute;
+	content: '';
+	right: 0%; 
+	top: 0%;
+	transform: translate(25px, -15px);
+	font-family: 'Bree Serif', serif;
+	display: inline-block;
+	background: #ffe6e6;
+	border-radius: 5px;
+	font-size: 14px;
+	padding: 5px;
+	color: white;
+	margin: 0;
+	animation: chan-sh 6s ease infinite;
+
+}
+
+#container{
+	box-shadow: 0 5px 15px 1px grey;
+    background: rgb(0,11,153);
+    background: linear-gradient(90deg, rgba(0,11,153,1) 0%, rgba(171,171,212,1) 0%, rgba(108,84,226,1) 85%);    
+    text-align: center;
+	border-radius: 5px;
+	overflow: hidden;
+	margin: 0 auto;
+    position: relative;
+    top: 3vh;
+    right: 3vw;
+	height: fit-content;
+	width: 900px;
+    overflow: auto;
+    margin-bottom: 20px;
+    font-family: 'Noto Sans';
+    display: flex;
+    margin-left: 150px;
+}
