@@ -111,7 +111,7 @@ const Main = (props) => {
                   I've been coding for about three years as of this point. I see myself as a creative person who is interested in learning; coding scratches that itch for me.
                 </p>
                 <p>
-                  Originally from the DC area, I graduated from Virginia Commonwealth University in the Spring of 2020. I'm a recent alumnus of the Coding Dojo bootcamp, earning my belts an orange and red belt in Python and MERN, respectively.
+                  Originally from the DC area, I graduated from Virginia Commonwealth University in the Spring of 2020 with a bachelor's in General Business and Mass Communications. I'm a recent alumnus of the Coding Dojo bootcamp, earning my orange and red belts in Python and MERN, respectively.
                 </p>
               </div>
               <div style={{margin:'1rem 1rem 2rem 0rem'}}>
@@ -119,14 +119,11 @@ const Main = (props) => {
                   Outside of coding
                 </h3>
                 <p style={{marginTop: '2rem'}}>
-                  The past two years I've spent helping local businesses increase their visibility online through search engine optimization. I spend my days revising content and implementing strategies for a wide range of businesses - plumbers, therapists - you name it.
+                  For the past two years, I've helped local businesses increase their visibility online through search engine optimization. I spend my days revising content and implementing strategies for a wide range of businesses; plumbers, therapists - you name it.
                 </p>
                 <p>
                   In my free time, I get a ton out of making and listening to music, reading, and enjoying my new environment of sunny San Diego.
                 </p>
-              </div>
-              <div style={{margin:'1rem 1rem 2rem 0rem'}}>
-                
               </div>
              </div>
             </div>
