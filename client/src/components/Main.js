@@ -25,7 +25,7 @@ const Main = (props) => {
             <div>
                 <div style={{background:'rgb(238,174,202)', background: 'radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%)', display: 'flex', gap: '6rem', width: 'fit-content', padding: '2rem', borderRadius: '1rem', boxShadow: '2px 2px 4px 2px gray'}}>
                     <div>
-                        <h4 style={{width: '20rem', position: 'relative', fontSize: '30px', color: 'white', textShadow: '1px 1px 1px gray'}}><a href="www.broken-record.net" style={{color: 'white', textDecoration: 'none'}}>broken record</a></h4>
+                        <h4 style={{width: '20rem', position: 'relative', fontSize: '30px', color: 'white', textShadow: '1px 1px 1px gray'}}><a href="https://www.broken-record.net" style={{color: 'white', textDecoration: 'none'}}>broken record</a></h4>
                         <p style={{width: '25rem', color: '#FFFCCC', textShadow: '1px 1px 1px gray', marginTop:'3rem'}}>A website where users can rate music from a database of over 20,000 albums. Functionality includes rating, messaging other users, and setting your status.
                         </p>
                         <p style={{width: '25rem', color: '#FFFCCC', textShadow: '1px 1px 1px gray', marginTop:'2rem'}}>
